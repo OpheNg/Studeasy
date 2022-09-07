@@ -24,4 +24,39 @@ span.e{
   height: 100px;
   vertical-align: middle;
   justify-content: center;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+.landing-links a.signup {
+  padding: 8px 12px;
+  text-decoration: none;
+  border-radius: 6px;
+  background-color:#d46868;
+  color: white;
+  font-weight: bold;
+}
+.landing-links a.signup:hover {
+
+  border-radius: 6px;
+  text-decoration: none;
+  background-color: white;
+  color: rgb(240, 164, 132);
+
+  font-weight: bold;
+}
+
+.landing-links a.login {
+  padding: 8px 20px;
+  background-color: rgb(50, 161, 152);
+  border-radius: 6px;
+  text-decoration: none;
+  color: rgb(253, 252, 252);
+  font-weight: bold;
+}
+.landing-links a.login:hover {
+  background-color:#41d1c8;
+  border-radius: 6px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
 }
