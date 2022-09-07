@@ -4,17 +4,20 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  height: 500px;
+  height: 600px;
   background-color: rgba(49, 195, 193, 0.474);
-  background-image: url('https://res.cloudinary.com/dhxefoe7j/image/upload/o_38/v1662551988/Studeasy/pexels-fox-1595385_snr5wa.jpg');
+  // background-image: url('https://res.cloudinary.com/dhxefoe7j/image/upload/o_38/v1662551988/Studeasy/pexels-fox-1595385_snr5wa.jpg');
+  background-image: url('https://res.cloudinary.com/dhxefoe7j/image/upload/o_34/v1662562842/Studeasy/pexels-yan-krukov-8199562_oydm05.jpg');
   background-size: cover;
   background-position: center;
 
 }
 // .landing-content{
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
+// //   display: flex;
+// //   flex-direction: column;
+// //   justify-content: flex-end;
+// //
+//   // position: relative;
 // }
 .landing-text{
   margin-top: 30px;
@@ -22,18 +25,23 @@
 
 .landing-text h1 {
   font-weight: bold;
-  font-size: 100px;
+  font-size: 120px;
   color: rgb(212, 104, 104);
 }
 span.e{
   color: rgb(39, 165, 155);
 }
 .landing-links{
-  height: 100px;
-  vertical-align: middle;
+  // height: 100px;
+  // vertical-align: middle;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 100px;
+  margin-left: 40px;
+  margin-right: 40px;
+    // margin-bottom: 20px;
   padding-top: 20px;
+  // position: absolute;
+  // bottom: 16px
 }
 .landing-links a.signup {
   padding: 8px 12px;
@@ -42,6 +50,7 @@ span.e{
   background-color:#d46868;
   color: white;
   font-weight: bold;
+  font-size: 20px;
 }
 .landing-links a.signup:hover {
 
@@ -60,6 +69,7 @@ span.e{
   text-decoration: none;
   color: rgb(253, 252, 252);
   font-weight: bold;
+  font-size: 20px;
 }
 .landing-links a.login:hover {
   background-color:#41d1c8;
