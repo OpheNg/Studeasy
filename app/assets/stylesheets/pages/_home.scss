@@ -1,1 +1,27 @@
 // Specific CSS for your home-page
+.landingbox{
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  background-color: rgba(49, 195, 193, 0.474);
+  background-image: url('https://res.cloudinary.com/dhxefoe7j/image/upload/o_38/v1662551988/Studeasy/pexels-fox-1595385_snr5wa.jpg');
+  background-size: cover;
+  background-position: center;
+
+}
+
+.landing-text h1 {
+  font-weight: bold;
+  font-size: 80px;
+  color: rgb(212, 104, 104);
+}
+span.e{
+  color: rgb(39, 165, 155);
+}
+.landing-links{
+  height: 100px;
+  vertical-align: middle;
+  justify-content: center;
+}
